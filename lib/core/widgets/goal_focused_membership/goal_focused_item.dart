@@ -42,7 +42,7 @@ class GoalFocusedItem extends StatelessWidget {
                   ClipRRect(
                     borderRadius: const BorderRadius.only(
                         topLeft: Radius.circular(15),
-                        bottomRight: Radius.circular(15)),
+                        topRight: Radius.circular(15)),
                     child: Hero(
                       tag: goalData.value.id.toString(),
                       child: CachedNetworkImage(
